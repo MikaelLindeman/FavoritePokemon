@@ -1,3 +1,5 @@
+Welcome to Favorite Pokemon!
+
 
 ------------------
 When starting the application for the first time open the terminal and write
