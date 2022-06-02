@@ -1,0 +1,168 @@
+{
+  "pokemons": [
+    {
+      "name": "Ditto",
+      "typesId": "4",
+      "level": "55",
+      "id": 5
+    },
+    {
+      "name": "Charizard",
+      "typesId": "2",
+      "level": "56",
+      "id": 6
+    },
+    {
+      "name": "Weedle",
+      "typesId": "2",
+      "level": "22",
+      "id": 8
+    },
+    {
+      "name": "Steelix",
+      "typesId": "17",
+      "level": "55",
+      "id": 9
+    },
+    {
+      "name": "Pikachu",
+      "typesId": "1",
+      "level": "33",
+      "id": 15
+    },
+    {
+      "name": "Treecko",
+      "typesId": "5",
+      "level": "7",
+      "id": 16
+    },
+    {
+      "name": "Arceus",
+      "typesId": "4",
+      "level": "100",
+      "id": 17
+    },
+    {
+      "name": "Mudkip",
+      "typesId": "3",
+      "level": "5",
+      "id": 18
+    },
+    {
+      "name": "Raichu",
+      "typesId": "1",
+      "level": "40",
+      "id": 19
+    },
+    {
+      "name": "",
+      "typesId": "1",
+      "level": "",
+      "id": 20
+    },
+    {
+      "name": "MewTwo",
+      "typesId": "11",
+      "level": "100",
+      "id": 21
+    },
+    {
+      "name": "Pichu",
+      "typesId": "1",
+      "level": "4",
+      "id": 22
+    },
+    {
+      "name": "",
+      "typesId": "1",
+      "level": "",
+      "id": 23
+    },
+    {
+      "name": "2",
+      "typesId": "5",
+      "level": "2",
+      "id": 24
+    },
+    {
+      "name": "2",
+      "typesId": "5",
+      "level": "2",
+      "id": 25
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "type": "Electric"
+    },
+    {
+      "id": 2,
+      "type": "Fire"
+    },
+    {
+      "id": 3,
+      "type": "Water"
+    },
+    {
+      "id": 4,
+      "type": "Normal"
+    },
+    {
+      "id": 5,
+      "type": "Grass"
+    },
+    {
+      "id": 6,
+      "type": "Ice"
+    },
+    {
+      "id": 7,
+      "type": "Fighting"
+    },
+    {
+      "id": 8,
+      "type": "Poison"
+    },
+    {
+      "id": 9,
+      "type": "Ground"
+    },
+    {
+      "id": 10,
+      "type": "Flying"
+    },
+    {
+      "id": 11,
+      "type": "Pyschic"
+    },
+    {
+      "id": 12,
+      "type": "Bug"
+    },
+    {
+      "id": 13,
+      "type": "Rock"
+    },
+    {
+      "id": 14,
+      "type": "Ghost"
+    },
+    {
+      "id": 15,
+      "type": "Dark"
+    },
+    {
+      "id": 16,
+      "type": "Dragon"
+    },
+    {
+      "id": 17,
+      "type": "Steel"
+    },
+    {
+      "id": 18,
+      "type": "Fairy"
+    }
+  ]
+}
