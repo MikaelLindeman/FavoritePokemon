@@ -1,16 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import { httpHelper } from '../helpers/httpHelper'
-import SearchBar from './Search'
-import Table from './Table'
 
+/**
+ * Creating a drop-down list of items fetched from 'url' 
+ * @param {*} param0 
+ * @returns the list of all Pokémon types inside the server
+ */
 
 const DropTypes = ({ typesId, handleValue }) => {
   const [types, setTypes] = useState(null)
   const [type, setType] = useState(typesId)
 
+  //Fetch the server and the httpHelper to help display everything
   const url = "http://localhost:5000/types"
 	const api = httpHelper()
 
+  
   useEffect(() => {
     api 
           .get(url)
@@ -32,6 +37,7 @@ const DropTypes = ({ typesId, handleValue }) => {
                   handleValue(e)
           }}
         >
+          {/* Map through all pokemon types to display the "type" attribute from the server */}
           {types.map(c => (
             <option value={c.id} key={c.id}>
                           {c.type}

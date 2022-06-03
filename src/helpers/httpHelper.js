@@ -1,5 +1,5 @@
 /**
- * A helper to helps create different HTTP requests needing for this project
+ * A helper to help create different HTTP requests needing for this project
  * a mini-library
  * @returns 
  */

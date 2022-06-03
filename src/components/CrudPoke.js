@@ -60,19 +60,16 @@ const CrudPoke = () => {
 			<h4>This page was created with one thing in mind:
 				to create a list of all your favorite Pokémon!
 			<br/></h4>
-            
       </div>
-	  {/* <SearchBar 
-	  placeholder="Search"
-	  onChange={(e) => console.log(e.target.value)}
-	  /> */}
-	 
 			<h1 className="center">Add a new Pokémon</h1>
+			{/* The form of which you write your information */}
 			<Form postPoke={postPoke} />
+
 			<SearchBar 
 			placeholder="Search"
 			onChange={(e) => console.log(e.target.value)}/>
 			<h3 className="center">All Pokémons</h3>
+			{/* A table containing Pokémons, Update Pokémon and Delete Pokémon functions */}
 			<Table 
 					pokes={pokes}
 					setPokes={setPokes}

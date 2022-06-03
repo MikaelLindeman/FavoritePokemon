@@ -1,5 +1,9 @@
 import React from 'react'
-
+/**
+ * Simple footer
+ * @returns Displays the footer on the page with the text and red/black colors on the page.
+ * see footerTop and footer in app.css for more info on styling
+ */
 function Footer() {
   return (
       <>

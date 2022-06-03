@@ -3,9 +3,14 @@ import axios from 'axios'
 import DropTypes from './DropTypes'
 import Form from './Form'
 
-
+/**
+ * Function to create a SearchBar 
+ */
     const SearchBar = ({ onChange, placeholder }) => {
         return (
+            <>
+            <form className=''>
+                <h2>Search a Pokémon</h2>
             <div className="search">
                 <span className="SearchSpan">
                     <input 
@@ -14,51 +19,15 @@ import Form from './Form'
                     onChange={onChange}
                     placeholder={placeholder}
                     />
-                </span>
-                
-                
-                {/* 
-                THIS IS the working one
-                <SearchBar
-        placeholder="Search"
-        onChange={(e) => console.log(e.target.value)}
-        className="searchBar"
-       />
-    <div>
-		    {types.map((item) => 
-		    <p {...item} key={item.name} />
-		    )}
-	  </div> */}
-            </div>
-        )
-    
-// const [APIData, setAPIData] = useState([])
-    // useEffect(() => {
-    //     axios.get(`http://localhost:5000/types`)
-    //         .then((response) => {
-    //             setAPIData(response.data);
-    //         })
-    // }, [])
-    // const url = "http://localhost:5000/types"
-  return (
-      <>
-    <div>
-        <form onSubmit="findType">
-            {/* <input
-            type="text"
-            name="search"
-            placeholder="Search a Type"
-            onChange={(e) => setSearch(e.target.value)} 
-            
-            /> */}
-            <input 
-            className="btn-submit"
-            type="submit"
+                    </span>
+                <input 
+                className="btn-submit"
+                type="submit"
             />
-        </form>
-    </div>
-    </>
-  )
-        }
+            </div>
+            </form>
+            </>
+        )
+ }
 
 export default SearchBar
