@@ -15,7 +15,7 @@ const DropTypes = ({ typesId, handleValue }) => {
   const url = "http://localhost:5000/types"
 	const api = httpHelper()
 
-  
+
   useEffect(() => {
     api 
           .get(url)
@@ -45,6 +45,8 @@ const DropTypes = ({ typesId, handleValue }) => {
           ))}
 
     </select> 
+
+   
     </>
   )
 }

@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import DropTypes from './DropTypes'
-import Search from './Search'
 
 /**
  * Create inputboxes to fill out name, level and type of pokemon

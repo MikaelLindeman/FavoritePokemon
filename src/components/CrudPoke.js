@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react"
 import Form from "./Form"
 import Table from "./Table"
 import { httpHelper } from "../helpers/httpHelper"
-import SearchBar from "./Search"
 
 
 const CrudPoke = () => {
@@ -50,6 +49,14 @@ const CrudPoke = () => {
 			})
 			.catch(err => console.log(err))
 	}
+	const Search = (search) => {
+    		if(search === "") {getPokes()} 
+		 else { 
+			setPokes(pokes.filter((pokemons)=> {
+				return(pokemons.name.toLowerCase().includes(search.toLowerCase()))
+			})) 
+		}
+	}
 
 
 	return (
@@ -64,10 +71,16 @@ const CrudPoke = () => {
 			<h1 className="center">Add a new Pokémon</h1>
 			{/* The form of which you write your information */}
 			<Form postPoke={postPoke} />
-
-			<SearchBar 
-			placeholder="Search"
-			onChange={(e) => console.log(e.target.value)}/>
+			<h3>Search an existing Pokémon</h3>
+			{/* Search for the pokemon */}
+			<div className="SearchInput">
+			<input 
+                    className="SearchInput"
+                    type="text"
+					placeholder="Search a Pokémon"
+                    onChange={(e)=>Search(e.target.value)}
+                    />
+				</div>
 			<h3 className="center">All Pokémons</h3>
 			{/* A table containing Pokémons, Update Pokémon and Delete Pokémon functions */}
 			<Table 
@@ -77,6 +90,7 @@ const CrudPoke = () => {
 					updatePoke={updatePoke}
 					deletePoke={deletePoke}
 					/>
+					
 		</>
 	)
 	}
