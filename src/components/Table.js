@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import DropTypes from './DropTypes'
 import Form from './Form'
-import Search from './Search'
 
 /**
  * Displays the Name, Type and Level from the Pokémons. 

@@ -27,7 +27,7 @@
     {
       "name": "Pikachu",
       "typesId": "1",
-      "level": "33",
+      "level": "35",
       "id": 15
     },
     {
@@ -61,16 +61,16 @@
       "id": 21
     },
     {
-      "name": "Pichu",
-      "typesId": "1",
-      "level": "4",
+      "name": "Mew",
+      "typesId": "11",
+      "level": "100",
       "id": 22
     },
     {
-      "name": "Oscar",
-      "typesId": "7",
-      "level": "25",
-      "id": 24
+      "name": "Rattata",
+      "typesId": "4",
+      "level": "1",
+      "id": 23
     }
   ],
   "types": [

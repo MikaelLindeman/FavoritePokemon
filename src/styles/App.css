@@ -182,6 +182,11 @@
     padding-top: 20px;
     text-align: center;
   }
+  .SearchInput {
+    align-items: center;    
+    display: flex;
+    justify-content: center;
+  }
 
   /* .SearchSpan {
     align-content: center;
