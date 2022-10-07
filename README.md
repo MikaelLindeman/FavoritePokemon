@@ -1,5 +1,7 @@
 Welcome to Favorite Pokemon!
 
+A school assigntment about working using CRUD.
+
 
 When starting the application for the first time open the terminal and write
 "cd crud-"
